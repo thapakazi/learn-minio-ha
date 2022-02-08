@@ -1,0 +1,14 @@
+#+TITLE: Minio HA POC with Virtualbox
+#+DATE: Wednesday, Feb 02 2022
+
+* prequisite
+** vbox pluginx required
+   #+begin_src bash
+   vagrant plugin install vagrant-vbguest
+   vagrant plugin install vagrant-reload
+   #+end_src
+
+** create a ssh key
+  #+begin_src bash
+  mkdir -p .ssh && ssh-keygen -f ./.ssh/id_rsa
+  #+end_src

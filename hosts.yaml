@@ -1,0 +1,15 @@
+version: ""
+image: "generic/alpine312"
+ip_range: "10.0.0."
+interface: "eth1"
+nodes:
+  count: 5 
+  resources:
+    memory: "2048"
+    cpu: "2"
+    disk: "1"
+# lb:
+#   ip: "10.0.0.30"
+#   resources:
+#     memory: "512"
+#     cpu: "1"
