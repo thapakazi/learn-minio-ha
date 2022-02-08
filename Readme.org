@@ -12,3 +12,6 @@
   #+begin_src bash
   mkdir -p .ssh && ssh-keygen -f ./.ssh/id_rsa
   #+end_src
+
+** Thanks
+ - https://github.com/medmouine/vagrant-k3s-HA-cluster  
